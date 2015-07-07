@@ -1,0 +1,486 @@
+#carousel-home-one{
+	margin: 0 auto;
+	width: 85%;
+}
+
+.carousel-left{
+	display: inline-block;
+	width: 30%;
+}
+
+.carousel-right{
+	display: inline-block;
+	width: 60%;
+}
+
+.carousel-right > h6{
+	font-size: 35px;
+}
+
+/*adds the background image to the hero section*/
+.hero-background{
+	background-image: url("../images/InternetHeader.png");
+	padding-top: 5%;
+}
+/*moves the hero section down from behind the header*/
+.hero{
+	padding-top: 1%;
+}
+/*moves the hero text and background image down from the header*/
+.hero-header{
+	float: right;
+	width:50%;
+	margin-right: 5%;
+}
+
+/*changes display of elements*/
+.make-inline-block{
+	display: inline-block;	
+}
+.make-block{
+	display: block;	
+}
+
+/*changes widths of elements*/
+.width-half{
+	width: 50% !important;	
+}
+.width-most{
+	width: 80% !important;
+}
+
+/*makes the minimum height of fiber vs cable section*/
+.add-450-minheight{
+	min-height: 450px;
+}
+
+/*margins for elements*/
+.add-margin-left-fifteen{
+	margin-left: 15%;
+}
+.add-margin-left-five{
+	margin-left: 5%;
+}
+.add-margin-left-ten{
+	margin-left: 10%;
+}
+.add-margin-top-five{
+	margin-top: 5%;
+}
+.add-margin-top-ten{
+	margin-top: 10%;
+}
+
+.no-bottom-margin{
+	margin-bottom: 0;
+}
+
+/*changes font size to 45px in call now banner*/
+.font-45{
+	font-size: 45px;
+}
+
+/*centers divs */
+.center{
+	margin: 0 auto;
+}
+
+/*changes vertical alignment for image in
+ where can i get fiber section*/
+.vertical-align-top{
+	vertical-align: top;
+}
+
+
+/*sizing for placeholder 
+image in where can i get fiber section*/
+.medium-icon{
+	width: 200px !important;
+	height: 200px;
+	display: inline;
+}
+
+
+/*styling for the fighter jet icon*/
+.speed-icon{
+	display: inline-block;
+	font-size: 100px !important;
+}
+/*styling for person icon for capacity*/
+.capacity-icon{
+	font-size: 100px !important;
+	margin: 0 5% 0 15%;
+}
+/*hides things on desktop*/
+.desktop-hide{
+	display: none !important;
+}
+/*shows hidden elements on desktop*/
+.mobile-hide{
+	display: initial !important;
+}
+
+.three-col h6{
+    font-size: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.second-col2{
+    width: 50%;
+}
+.third-col2{ 
+    
+    width: 50%
+}
+
+.options-wrapper{
+    width: 100%;
+    overflow: hidden;
+    z-index: -20;
+    position: relative;
+}
+
+/* image of the couple*/
+.options-bkgd{
+    position: absolute;
+    z-index: -20;
+    width: 50%;
+    height: 100%;
+    top: 10;
+    left: 0;
+    bottom: 1;
+    background-size: cover;
+    background-image: url("../images/couple.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.options-content{
+    width: 50%;
+    margin-left: 35%;
+    display: inline-block;
+    line-height: 1.75;
+    color: #536684;
+}
+
+.options-content h2{
+    font-size: 30px;
+}
+    
+.options-content p{
+    font-size: 23px;
+    width: 100%;
+}
+
+/* wide screen query */
+@media screen and (max-width: 1180px) {
+	/*hides things on desktop*/
+	.desktop-hide{
+		display: none !important;
+	}	
+}
+
+/* desktop query */
+@media screen and (max-width: 960px) {
+	/*adjusting padding and margins for hero*/	
+	.hero{
+		padding-top: 0;
+	}
+	.hero-header>h1{
+		margin-top: 20%;
+	}
+
+	/*styles for fighter jet icon*/
+	.speed-icon{
+		padding-right: 0;
+		float: none;
+		padding-left: 10%;
+	}
+
+	/*hides things on desktop*/
+	.desktop-hide{
+		display: none !important;
+	}	
+    
+    
+    /* image of the couple*/
+    .options-bkgd{
+        width: 55%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background-image: url('../images/couple.png');
+        background-position: right;
+        content: '';
+        z-index: -3;
+        background-size: cover;
+        margin-top: -5%;
+        opacity: 0.2;
+    }
+
+    .options-content{
+        width: 65%;
+        margin-left: 30%;
+    }
+
+    .options-content h2{
+        font-size: 30px;
+    }
+
+    .options-content p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+}
+
+/* tablet query */
+@media screen and (max-width: 767px) {
+	.carousel-left{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.carousel-right{
+		display: block;
+		width: 100%;
+	}
+	/*margins for tablet*/
+	.tablet-margin-fifteen{
+		margin-left: 15% !important;
+	}
+	.tablet-margin-ten{
+		margin-left: 10%;
+	}
+
+	.tablet-margin-five{
+		margin-left: 5%;
+	}
+	.tablet-margin-top-ten{
+		margin-top: 10%;
+	}
+		/*changes fifty to five for smaller screens*/
+	.add-margin-top-fifty{
+		margin-top: 5%;
+	}
+	.no-margin{
+		margin: 0;
+	}
+
+	/*makes widths larger for smaller screens*/
+	.tablet-width-100{
+		width: 100% !important;
+	}
+    
+	/*tablet styles for hero section*/
+	.hero{
+		padding-top: 0;
+	}
+	.hero-header>h1{
+		margin-top: 25%;
+	}
+
+	/*fighter jet tablet style*/
+	.speed-icon{
+		padding: 0;
+	}
+	/*person icon tablet style*/
+	.capacity-icon{
+		margin-left: 4%;
+		margin-right: 0 !important;
+	}
+
+	/*changes fiber vs cable section for smaller screens*/
+	.float-right{
+		float: none;
+	}
+	.float-right{
+		margin-top: 5%;
+	}
+	.three-col{
+		width: 100%;
+	}
+	.box-wrapper{
+		display: inline-block;
+	}
+	.active-triangle{
+		display: none;
+	}
+	.inactive-triangle{
+		display: none;
+	}
+
+	/*tablet styles for fiber vs cable section*/
+	.fiber-text-area{
+		width: 90%;
+	}
+	.cable-text-area{
+		width: 90%;
+	}
+    
+    
+    /* image of the couple*/
+    .options-bkgd{
+        width: 90%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background-image: url('../images/couple.png');
+        background-position: right;
+        content: '';
+        z-index: -3;
+        background-size: cover;
+        margin-top: -5%;
+        opacity: 0.2;
+    }
+
+    .options-content{
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    .options-content h2{
+        font-size: 30px;
+    }
+
+    .options-content p{
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 696px) {
+	.small-tablet-width-most{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.small-tablet-width-most>div{
+		width: 100% !important;
+	}
+	.medium-icon{
+		width: 50% !important;
+		height: 50%;
+		margin-left: 25%;
+	}
+}
+
+/* mobile phone query */
+@media screen and (max-width: 375px) {
+    
+    /*makes sure that all paragraphs are 
+    away from the edge of the screen*/
+    p{
+	margin-left: 3%;
+	}
+	/*changes the width of the smaller sections*/
+    .width-half{
+        width: 100% !important;	
+    }
+
+    /*shows the call now banner at the top of the page*/
+	.call-now-top{
+		display: initial;
+	}
+    /*styles for the call now banner for mobile*/
+    .mobile-call-now{
+        transform: translateY(-125%);
+    }
+    .mobile-call-number{
+        margin: 0;
+        height: 31px;
+    }
+
+    /*changes the background of the hero section*/
+    .hero-background{
+    	background-image: url("../images/herobg.png") !important;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .hero-header{
+    	margin-right: 0;
+    	width: 100%;
+    }
+
+    /*margins for mobile version*/
+    .mobile-margin{
+        margin:0 !important;
+    }
+    .mobile-margin-top-five{
+    	margin-top: 5%;
+    }
+
+    .mobile-margin-bottom-five{
+    	margin-bottom: 5%;
+    }
+
+    .mobile-margin-twenty{
+    	margin-left: 20%;
+    }
+    .add-margin-left-fifteen{
+		margin-left: 15%;
+	}
+
+	.add-margin-left-five{
+		margin-left: 0;
+	}    
+    .box-wrapper{
+        margin:0;
+        display: inline-block;
+    }
+
+    /*fighter jet styles for mobile*/
+	.speed-icon{
+		margin-left: 0;
+		float: none;
+	}
+	/*person icon style for mobile*/
+	.capacity-icon{
+		margin-left: 0 !important;
+		margin-bottom: 5%;
+	}
+
+	/*changes the margins of the cable vs fiber section*/
+	.add-600-minheight.tablet-margin-five{
+		margin: 0 !important;
+	}
+
+	.box-wrapper{
+	    margin: 0
+        left:0;
+        transform: translateX(5%);
+    }
+    /*hides things that shouldnt be on mobile*/
+	.mobile-hide{
+		display: none !important;
+	}
+	/*shows the things that were hidden on desktop*/
+	.desktop-hide{
+		display: initial !important;
+	}
+    
+    .options-bkgd{
+        width: 95%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background-image: url('../images/couple.png');
+        background-position: left;
+        content: '';
+        z-index: -3;
+        background-size: cover;
+        margin-top: -5%;
+        opacity: 0.2;
+    }
+    
+    .options-content h2{
+        font-size: 25px;
+    }
+    
+    .three-col h6{
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}	

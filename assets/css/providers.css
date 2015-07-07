@@ -1,0 +1,371 @@
+/* overrides the resetCSS */
+
+body{
+    line-height: 1.3;
+}
+
+.carousel-header{
+    font-weight: bolder;
+}
+
+.owl-content-home{
+	margin: 0 20% 0 0;
+}
+
+.neighborhood-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.article-container{
+	width: 85%;
+	margin: 0 auto;
+	display: block;
+}
+
+.article-container2 h2{
+    margin-left: 45%;
+    padding-top: 0;
+	text-align: left;
+    font-size: 40px;
+	line-height: 1.3;
+	font-weighT: 600;
+}
+
+.article-container2 .sub-header{
+    margin-left: 45%;
+    text-align: left;
+    padding-bottom: 0;
+	font-weight: 500;
+}
+
+/* end of resetCSS override */
+
+.col-2-left{
+	width: 45%;
+	display: inline-block;
+	/*float: left;*/
+}
+
+.col-2-right{
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+}
+
+.col-2-right p{
+    padding: 20px;
+    font-size: 17px;
+}
+
+/* column two considering fiber */
+.col-2-right-2{
+    width: 55%;
+    padding-left: 10%;
+	height: 100%;
+	display: inline-block;
+}
+
+.col-2-right-2 p{
+   padding: 5% 0 10px 5%;
+    font-size: 19px;
+}
+
+.col-2-left p{
+	margin-bottom: 30px;
+}
+
+.image-container-right{
+	width: 50%;
+	height: 100%;
+	float: right;
+    padding-top: 10%;
+}
+
+.carousel-image{
+    width: 100%;
+    height: auto;
+}
+
+.image-container-left{
+	width: 55%;
+	height: 100%;
+    position: absolute;
+    left: -2px;
+    background-image: url('../images/neighborhood.png');
+    background-position: right;
+    content: '';
+    z-index: -3;
+    background-size: cover;
+    margin-top: -5%;
+}
+
+/*
+.image-container-left img{
+	width: 140%;
+	height: auto;
+}*/
+
+.providers-three-col{
+	width: 25%;
+	margin: 4%;	
+}
+
+/*vertically center when parent height is unknown */
+.center-vertically::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+.center-vertically div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center-horizontally-parent {
+  position: relative;
+}
+.center-horizontally-child {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-subtext{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1180px){
+    .image-container-left{
+        background-position: right;
+        width: 60%;
+    }
+}
+
+/* desktop query */
+@media screen and (max-width: 960px) {
+	.article-container{
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+	
+	.article-container2 h2{
+		font-size: 30px;
+	}
+    
+    .col-2-left{
+        width: 70%;
+    }
+    
+    .image-container-left{
+        background-position: right;
+        width: 70%;
+    }
+    
+    .image-container-right{
+        width: 25%;
+    }
+    
+    .image-container-right img{
+        width: 150%;
+        margin-left: -20%;
+    }
+}
+
+/* tablet query */
+@media screen and (max-width: 767px) { 
+    .article-container2 h2{
+        margin-left: 0;
+        text-align: center;
+		text-transform: uppercase;
+    }
+    
+    .article-container2 .sub-header{
+        margin-left: 0;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .col-2-left{
+        width: 100%;
+        display: block;
+    }
+
+    .col-2-right{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    .col-2-left p{
+        margin-bottom: 0;
+    }
+
+    .image-container-right{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .image-container-right img{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-left: 0;
+    }
+
+    .image-container-left{
+        width: 120%;
+        opacity: 0.1;
+    }
+
+    .providers-three-col{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        display: block;
+        float: none;
+    }
+    
+    .col-2-right-2{
+        width: 100%;
+        padding: 2% 0 0 0;
+        margin-left: 0;
+    }
+    
+    .col-2-right-2 p{
+        padding-bottom: 10px;
+        font-size: 17px;
+    }
+
+    
+    .icon-subtext{
+        font-weight: bolder;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .provider-three-col-p{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .image-container-left{
+        width: 120%;
+        opacity: 0.2;
+    }
+	
+	.article-container2 h2{
+		font-size: 40px;
+		line-height: 1.3;
+		font-weighT: 600;
+	}
+  
+      .article-container2 .sub-header{
+        margin-left: 0;
+        text-align: center;
+        padding-bottom: 0;
+		  background-color: #;
+      }
+    
+}
+
+/* mobile phone query */
+@media screen and (max-width: 375px) {
+    .article-container2 h2{
+        margin-left: 0;
+        font-size: 20px;
+        text-align: center;
+		background-color: #5fbaf8;
+		font-weight: bolder;
+    }
+
+    .article-container2 .sub-header{
+        margin-left: 0;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    
+    .providers-hero-background{
+        background-image: url('../images/herobg.png');
+    }
+    
+    .owl-content-home{
+        width: 100%;    
+    }
+    
+    .mobile-call-banner{
+        display: block;
+		min-height: 64px;
+    }
+    
+    .mobile-call-left{
+        padding: 5% 0 5% 0;
+		color: #112151;
+		background-color: #ffffff;
+		font-weight: 800;
+		font-size: 18px;
+		border: 1px solid #182754;
+		display: inline-block;
+		width:25%;
+		height: 64px;
+		float: left;
+		text-align: center;
+    }
+    
+    .mobile-call-right{
+        padding: 5%;
+    }
+    
+    .col-2-left{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .col-2-right{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .col-2-left p{
+        margin-bottom: 0;
+    }
+
+    .image-container-right{
+        width: 95%;
+        height: auto;
+        float: none;
+    }
+
+    .image-container-right img{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .image-container-left{
+        width: 30%;
+        opacity: 0.2;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .providers-three-col{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0;
+        display: block;
+        float: none;
+    }
+}

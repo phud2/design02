@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contains all of the styles for the hardware.php*/
+
+.mobile-call-banner{
+    display: none;
+}
+
+.change-case {
+		/* This could be added to sub-header and eliminated.  Check during code review. */
+	text-transform: uppercase;	
+}
+
+.upper-twocol-margin{
+	margin: auto 5% auto 5%;
+}
+
+.placeholder-availability-2{
+	width: 40%;
+	height: auto;
+	padding-left: 20%;
+}
+
+.availability-twocol-right{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.availability-twocol-left{
+	width: 90%;
+    margin: 0 auto;
+}
+
+.border-right{
+	border-right: 1px solid #C8C8C8;
+}
+
+.icon-container{
+	text-align: center;
+}
+
+.icon-center{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.availability-list{
+	margin: 5% 2% 5% 2%;
+	line-height: 2;	
+}
+
+.availability-three-col{
+	width: 25%;
+	margin: 4%;	
+}
+
+.map-container{
+    width: 100%;
+    overflow: hidden;
+	position: relative;
+}
+
+.map-bkgd{
+    width: 80%;
+	height: 100%;
+    position: absolute;
+    left: 0;
+    background-image: url('../images/map.png');
+    background-position: right;
+    content: '';
+    z-index: -3;
+    background-size: cover;
+    margin-top: -5%;
+    opacity: 0.2;
+}
+
+.map-content{
+    width: 50%;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 1180px){
+    .availability-twocol-left{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* desktop query */
+@media screen and (max-width: 960px) {
+    .availability-twocol-left{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .map-content{
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+/* tablet query */
+@media screen and (max-width: 767px) {
+    .availability-twocol-right{
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        margin: auto 2% auto;
+        overflow: hidden;
+    }
+
+    .availability-twocol-left{
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .availability-three-col{
+        width: 100%;
+        margin: 0;	
+    }
+
+    .map-bkgd{
+        height: 75%;
+    }
+    
+    .map-content{
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+/* mobile phone query */
+@media screen and (max-width: 375px) {
+    .availability-hero-background{
+        background-image: url('../images/herobg.png');
+    }
+    
+    .mobile-call-banner{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .mobile-call-left{
+        width: 30%; 
+        color: #112151;
+        border: 1px solid #112151;
+        font-weight: 800;
+        font-size: 30px;
+    }
+    
+    .mobile-call-right{
+        width: 70%;
+        background-color: #7a7d85;
+        border: 1px solid #112151;
+        color: white;
+    }
+    
+    .map{
+        margin: 0 0 0 -5%;
+    }
+    
+    .placeholder-availability-2{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .availability-twocol-right{
+        display: block;
+        height: 90%;
+        width: 100%;
+        margin: auto 2% auto;
+        padding: 10px;
+    }
+
+    .availability-twocol-left{
+        display: block;
+        height: auto;
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .availability-three-col{
+        width: 100%;
+        margin: 0;	
+    }
+    
+    .availability-three-col p{
+        padding-left: 5%;
+    }
+
+    .availability-circle{
+        /* Place holder for large circles on availability page */
+        width: 120px !important;
+        height: 120px;
+        display: inline;
+        margin: 15% 0 0;	
+    }
+
+    .map-bkgd{
+        width: 90%;
+        height: 100%;
+        background-position: left;
+    }
+
+}

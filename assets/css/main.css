@@ -1,0 +1,2227 @@
+/* CSS used sited wide */
+
+/* Google Font Name: Dosis  */
+/* Choose different Dosis fonts by weight */
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Dosis ExtraLight'), local('Dosis-ExtraLight'), url(http://fonts.gstatic.com/s/dosis/v4/VK-RlLrn4NFhRGqPkj6IwBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Dosis ExtraLight'), local('Dosis-ExtraLight'), url(http://fonts.gstatic.com/s/dosis/v4/RPKDmaFi75RJkvjWaDDb0vesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(http://fonts.gstatic.com/s/dosis/v4/SHQzTQBI7152hSrIuGUiVBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(http://fonts.gstatic.com/s/dosis/v4/7aJzV14HzAOiwNTiPgucGfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(http://fonts.gstatic.com/s/dosis/v4/RlBXAIuiO5GvH9-0-JbBlw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(http://fonts.gstatic.com/s/dosis/v4/4hYyXH_8WmbBLamf6WjLwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(http://fonts.gstatic.com/s/dosis/v4/NI3uVO_o2Ursx6Z1Lyy3oRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(http://fonts.gstatic.com/s/dosis/v4/mAcLJWdPWDNiDJwJvcWKc_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Dosis SemiBold'), local('Dosis-SemiBold'), url(http://fonts.gstatic.com/s/dosis/v4/yeSIYeveYSpVN04ZbWTWghTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Dosis SemiBold'), local('Dosis-SemiBold'), url(http://fonts.gstatic.com/s/dosis/v4/O6SOu9hYsPHTU43R17NS5fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(http://fonts.gstatic.com/s/dosis/v4/fP7ud4UTUWGxo-nV1joC1RTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(http://fonts.gstatic.com/s/dosis/v4/22aDRG5X9l7obljtz7tihvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Dosis ExtraBold'), local('Dosis-ExtraBold'), url(http://fonts.gstatic.com/s/dosis/v4/NL7tQp6ch38l_aQukeablRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Dosis ExtraBold'), local('Dosis-ExtraBold'), url(http://fonts.gstatic.com/s/dosis/v4/nq3OPeKr7RUSF_YDJ1woxvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* Styles used in all sections */
+
+body{
+	margin: 0 auto;
+	color: #333;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 10;
+}
+
+.mobile-call-banner{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.modal-call-number{
+  font-size: 60px;
+}
+
+/* wrapper around the whole page*/
+.main-wrapper{
+	margin: 0;
+	width: 100%;
+}
+
+/* sub headers */
+.sub-header{
+	text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+.sub-header-line2{
+    display: block;
+}
+
+.sub-header-tops{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+/* main headers */
+.article-header{
+	text-align: center;
+	margin: 0 auto;
+    padding-top: 10%;
+    font-size: 50px;
+}
+
+/* adds width to a div for centering purposes */
+.add-width{
+	width: 40%;
+	text-align: center;
+}
+
+/* add box shadow to the right of column */
+.shadow-right{
+	-webkit-box-shadow: 5px 0 5px -2px #e6e6e6;
+	-moz-box-shadow: 5px 0 5px -2px #e6e6e6;
+	-o-box-shadow: 5px 0 5px -2px #e6e6e6;
+	box-shadow: 5px 0 5px -2px #e6e6e6;
+}
+
+/* fonts for all headers */ 
+.header-font{
+	text-transform: uppercase;
+	margin: 0 0 3% 0;	
+}
+
+/* divs with the faded gradient background */
+.dark{ 
+	color: #526784;	
+	background: #e9edf2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	box-shadow: 10px 10px 80px 30px #e9edf2;
+}
+
+/* the lighter divs */
+.light{
+	background-color: #323232;
+	color: #fff;
+}
+
+/*class only for centering*/
+.center{
+	margin: 0 auto;
+}
+
+/* centers container divs */
+.centered{
+	width: 80%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+/* Centers the parent container and provides border */
+.content{
+	width: 100%;
+	height: 120%;
+	margin: 5% auto 0 auto; /* need to remove this because adds too much space between divs*/
+    color: #536684;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+/* first div after hero */
+
+.content-after-hero .article-header{
+    padding-top: 0;
+}
+
+/* margins for three-column layouts */
+.add-margin-tb-three{
+	margin-bottom: 3% !important;
+	margin-top: 3% !important;
+}
+
+/* class for adding top margins */
+.add-margin-top-ten{
+	margin-top: 10%;
+}
+
+/* text centered class*/
+.text-center{
+	text-align: center;	
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+/* Fills a container with the background */ 
+.clear-fix:after {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+/* temporary style for placeholder */
+.placeholder{
+	width: 50%;
+	height: 50%;
+}
+
+/* Sub-page hero styling */
+/* Styles for hero div */
+.hero{
+    position: relative;
+    top: 75px;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    color: #fff;
+    z-index: 5;
+}
+
+/* background for hero banners on each page */
+.hero-background{
+	display: inline-block;
+    width: 100%;
+	height: 100%;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-image: url("../images/hero-bg.png");	
+}
+
+.providers-hero-background{
+    background-image: url('../images/ProvidersHeader.png');
+}
+
+.hardware-hero-background{
+    background-image: url('../images/HardwareHeader.png');
+}
+
+.availability-hero-background{
+    background-image: url('../images/AvailabilityHeader.png');
+}
+
+.hero-margin{
+	margin: 0;	
+}
+
+.hero-header-vertical-middle{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0 0 7%;
+}
+
+/* main header on each hero banner */
+.hero-header-title{
+	text-transform: uppercase;
+	font-weight: 300;
+    margin-top: 8%;
+	font-size: 62px;
+    font-weight: bolder;
+    line-height: 1.3;
+}
+
+/* second header on each hero banner */
+.hero-header-sub-header{
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+/* hero styles -- to match the new background*/
+
+
+.hero-text-container-right{
+    position: absolute;
+    right: 0;
+    top: 5%;
+    width: 70%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-header{
+    font-size: 35px;
+}
+
+.hero-sub-header{
+   font-size: 30px;
+}
+
+.hero-text-container-left{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 70%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hero-text-container-left .hero-sub-header{
+    font-size: 25px;
+}
+
+/* Oblong button styling - buttons on each page */
+.button-style { 
+	background-color: #ffffff; 
+	-moz-border-radius: 28px; 
+	-webkit-border-radius: 28px; 
+	border-radius: 28px;  
+	display: inline-block; 
+    border: 1px solid black; 
+	cursor: pointer; 
+	color: black; 
+	width: 120px;
+	font-size: 17px; 
+	padding: 10px 20px; 
+	text-decoration: none;
+	text-align: center;
+	margin: 3% auto;
+} 
+	
+/* spacing around the button */
+.button-move{
+	margin: 3% auto;
+	width: 140px;
+}
+	
+.button-style:hover { 
+	background-color: #7fd0ff; 
+} 
+
+/* Creates two columns */
+
+.left{
+	display: inline-block;
+	/*float: left;*/
+	width: 50%;
+	height: 100%;
+}
+
+.right{
+	display: inline-block;
+	width: 45%
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.float-clear{
+	clear: both;	
+}
+
+.left-text-margins{
+	padding-left: 7%;
+	padding-right: 3%;
+	display: inline-block;
+	width:35%;
+	margin-bottom: 3%;
+	text-align: right;
+	margin-left: 3%;
+}
+
+.right-text-margins{
+	margin-top: 5%;
+	margin-left: 0;
+	margin-right: 7%;
+	width: 40%;	
+}
+
+/* Create three columns */
+
+.three-col{
+	width: 30%;
+	display: inline-block;
+}
+
+/* Create four columns */
+
+.four-col{
+	width: 20%;
+	display: inline-block;
+}
+
+.left-padding-10{
+	padding-left: 4%;
+}
+
+.right-padding{
+	padding-right: 20px;
+}
+
+/* header and header.php styles */
+/*
+header{
+	background-color: #124471;
+}*/
+
+
+/* Navigation CSS mobile */
+.mobile-container{
+  display: none;
+  width: 100%;
+  height: 70px;
+  background-color: #112151;
+  position: fixed;
+  text-align: center;
+  z-index: 999;
+}
+
+.mobile-container h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.hamburger, .phone-icon{
+  display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-list-mobile {
+    margin-top: 70px;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.hamburger button {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 27px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease;
+}
+
+.phone-icon button {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 33px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease;
+}
+
+.hamburger button.expanded {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+  background-color: transparent;
+  border: 1px solid #ddd;
+}
+
+.hamburger a {
+    display: block;
+}
+
+.nav-list-mobile a {
+    background-color: #bcc8ee; /*change later*/
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-list-mobile a:hover{
+  color: #000;
+}
+
+.desktop {
+    display: block;
+    overflow: hidden;
+}
+/* Navigation CSS mobile END----------*/
+
+.logo{
+	margin: 1% 2% 1% 2%;
+	float: left;
+  width: 10%;
+  text-align: center;
+}
+
+.logo-img{
+	height: 50px;
+}
+
+/* Fiber internet.com -- next to logo -- whole container */
+.fiber-title{
+    text-align: center;
+}
+
+/* Fiber */
+.logo-fiber-top{
+    color: #90dee4;
+    font-size: 18px;
+    display: inline;
+}
+
+/* Internet.com */
+.logo-internet-bottom{
+    color: #c1e6ff;
+    font-size: 20px;
+}
+
+.nav-set{
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+    top: 0;
+	position: fixed;
+    height: auto;
+	background-color: #124471;
+	z-index: 10;	
+}
+
+nav{
+	position: relative;
+	top: 40px;  /* We need to find a way to make this responsive */
+	width: 30%;
+    padding-left: 1%;
+	display: inline;
+}
+
+nav > ul{
+	margin-bottom: 0;
+	padding: 0;
+	display: inline;
+}
+
+.nav-links{
+	display: inline;
+	margin: 0 .5% 0;
+}
+
+.nav-links > a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 25px;
+}
+
+.nav-links > a:hover{
+	color: #7fd0ff;
+}
+
+/* call banner styles top right corner */
+.call-to-action{
+	position: relative;
+	width: 30%;
+	float: right;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 1px;
+    border-collapse: inherit;
+    padding: 10px;
+}
+
+.header-call-col-1{
+    width: 15%;
+    vertical-align: baseline;
+    text-align: right;
+}
+
+.header-call-col-2{
+    width: 40%;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.header-call-col-3{
+    width: 22%;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.call-header-text{
+    display: block;
+    text-align: center;
+}
+
+.call-to-action tr td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header-blue-text{
+	color: #d8f1fe;
+}
+
+.header-number{
+    display: block;
+    font-size: 25px;
+}
+/* End nav/header formats */
+
+/* large call number in the middle of each page */
+.call-number{
+	display: inline;
+	font-size:  100px;
+	font-weight: bolder;
+}
+
+.call-banner-container{
+	width: 100%;
+	background-color: #fa9c17;
+   
+    box-shadow: 10px;
+}
+
+.call-banner{
+    width: 80%;
+	margin: 0 auto;
+    text-align: right;
+}
+
+.call-banner .article-header{
+    padding-top: 0;
+}
+
+.call-banner>img{
+  vertical-align: text-bottom;
+}
+
+.call-action{
+	font-size: 30px !important; 
+    font-weight: 800;
+	text-align: right;
+    color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* phone icon near call to action at middle of each page */
+.small-circle{
+	/* Place holder for circle icon on home page */
+	width:120px !important;
+	height: 120px;
+    padding-right: 2%;
+	display: inline;
+}
+
+.after-call-banner{
+	margin-top: 0;
+}
+
+.box-wrapper{
+	width:162px;
+  font-size: 15px;
+}
+
+.side-squares{
+	/* Formatting for clickable squares on various pages */
+	width:120px;
+	height:100px;
+	color: white;
+}
+
+.active-triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12.5px 0 12.5px 21.7px;
+	border-color: transparent transparent transparent #3491ce;
+	float: right;
+	margin-top: 25%;
+	display: inline-block;
+}
+
+.inactive-triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12.5px 0 12.5px 21.7px;
+	float: right;
+	margin-top: 25%;
+	display: inline-block;
+	border-color: transparent transparent transparent #1e567b;
+}
+.active-box{
+	background-color: #3491ce;
+}
+
+.inactive-box{
+	background-color: #1e567b;
+}
+
+/*vertically center when parent height is unknown */
+.center-vertically::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+.center-vertically div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*horizontally center when parent width is unknown */
+/*vertically center when parent height is unknown */
+.center-horizontally-parent {
+  position: relative;
+}
+.center-horizontally-child {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* icons on home providers and availability*/
+.icon-circle{
+	/* Place holder for large circles on availability page */
+    background: url("../images/circle.png") no-repeat center center;
+    background-size: auto 100%;
+    margin: 10% auto;
+    width: 125px;
+    height: 125px;
+}
+
+.icon-circle .fa{
+    position: relative;
+    top: 22%;
+}
+
+/* footer styles */
+footer{
+	color: white;
+}
+
+/* top footer bar with polygon background */ 
+.footer-first-bar{
+	width: 100%;
+    max-height: 75vh;
+	background-image: url("../images/footer-bg.png");
+    background-size: cover;
+}
+
+/* the headers of the footer sections - i.e. main menu, etc. */
+.footer-header{
+	text-transform: uppercase;
+	font-size: 25px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+/* the main menu and links */
+.footer-menu-box{
+    width: 30%;
+    max-height: 20vh;
+    margin: 8% 0 0 2%;
+}
+
+/* the unordered list of links */
+.footer-menu {
+    list-style-type: none;
+    padding-bottom: 5px;
+    columns: 2;
+    -webkit-columns: 2;
+}
+	/* styling on the list items */
+	.footer-menu > li{
+		font-size: 18px;
+        text-transform: uppercase;
+	}
+
+	/* styling of the anchors in the footer menu*/
+    .footer-menu > li > a{
+        color: white;
+    }
+
+/* the footer form container */
+.footer-right{
+    width: 45%;
+    float: right;
+    text-align: center;
+    margin: 8% 11% 0 0;
+    padding-left: 30px;
+}
+
+/* the left most text boxes of the form*/
+.form-left{
+    width: 40%;
+    float: left;
+}
+
+/* the right most text boxes of the form*/
+.form-middle{
+    float:left;
+    width: 40%;
+}
+
+/* the column of the form that holds the submit button*/
+.form-right{
+    width: 20%;
+    float: right;
+    margin-top: 15px;
+}
+
+/* styling the input boxes*/
+.input-boxes{
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(256,256,256,0.1),
+            0 0 16px rgba(256,256,256,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(256,256,256,0.1),
+            0 0 16px rgba(256,256,256,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(256,256,256,0.1),
+            0 0 16px rgba(256,256,256,0.1); 
+    border: 1px solid #A0C0D7; 
+    height: 25px;
+    width: 150px;
+	text-align: center;
+	font-size: 13px;
+    background-color: #A0C0D7;
+	text-transform: uppercase;
+    border-color: #A0C0D7;
+    color: #646464;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* footer form submit button */
+.form-button{
+	text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    background: #1CB841;
+    background: #85C540;
+      background-image: -webkit-linear-gradient(top, #85C540, #41B549);
+      background-image: -moz-linear-gradient(top, #85C540, #41B549);
+      background-image: -ms-linear-gradient(top, #85C540, #41B549);
+      background-image: -o-linear-gradient(top, #85C540, #41B549);
+      background-image: linear-gradient(to bottom, #85C540, #41B549);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+
+.form-button:hover{
+	/* submit button */
+	cursor: pointer;
+}
+
+/* bar with the terms and conditions links*/
+.footer-bottom-bar{	
+	height: auto;
+	background-color: #06224A;
+	padding: 10px;
+	text-align: left;
+    box-shadow: inset 0 1px 0 rgba(220,220,220,0.4);
+}
+
+/* 2015 copyright fiberinternet.com */
+.footer-copyright{
+	color: white;
+	text-transform: uppercase;
+	padding-left: 5%;
+}
+
+/* modal pop up for terms and conditions  */
+
+/* wrap around the privacy and terms link */
+.wrap {
+ 	display: inline;
+  	padding-left: 10px;
+  	width: 100%;
+  	text-align: center;
+}
+
+/* styling for the privacy and terms and conditions link */
+.privacy-terms{
+	color: white;
+	text-decoration: none;
+	padding-right: 10px;
+}
+/* not sure if this is needed
+h1 {
+  font-size: 30px;
+  padding: 60px 0 0;
+  margin: 0 0 40px;
+}
+
+p {
+  margin-bottom: 20px;
+} */
+
+/* button in the modal - the nice! button */
+.btn {
+	background: #428bca;
+	border: #357ebd solid 1px;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	padding: 8px 15px;
+	text-decoration: none;
+	text-align: center;
+	min-width: 60px;
+	transition: color .1s ease;
+}
+
+/* X button inside of the modal popup*/
+.btn-close {
+	color: #aaa;
+	font-size: 30px;
+	text-decoration: none;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+
+.btn-close:hover {
+ 	color: #909090;
+}
+
+.modal:target + .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 20%;
+}
+
+.modal-dialog {
+  background: #fefefe;
+  border: #333 solid 1px;
+  border-radius: 5px;
+  margin-left: -200px;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 360px;
+  -webkit-transform: translate(0, -500%);
+  -ms-transform: translate(0, -500%);
+  transform: translate(0, -500%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+/* these styles control the actual popup modal*/
+.modal-body {
+  padding: 20px;
+  color: 000;
+}
+
+/* form in the header modal */
+.form-modal{
+	width: 100%;
+}
+
+.modal-header, 
+.modal-footer {
+  padding: 10px 20px;
+}
+
+.modal-header {
+  border-bottom: #eee solid 1px;
+}
+
+.modal-header h2 {
+  font-size: 10px;
+}
+
+.modal-footer {
+  border-top: #eee solid 1px;
+  text-align: right;
+}
+
+.call-now-top{
+  display: none;
+}
+
+@media screen and (max-width: 1400px){
+    nav{
+        position: relative;
+        top: 60px;  /* We need to find a way to make this responsive */
+        width: 30%;
+        padding-left: 0;
+        display: inline;
+    }
+    
+    .nav-links > a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+/* wide screen query */
+@media screen and (max-width: 1180px) {
+    
+	/* Navigation CSS mobile */
+	.hamburger, .phone-icon, .mobile-container{
+      display: none;
+    }
+    
+    .desktop{
+      display: none;
+    }
+
+	.logo{
+		margin: 1% 1% 1% 2%;
+        float: left;
+        width: 8%;
+	}
+    
+    /* Fiber internet.com -- next to logo -- whole container */
+    .fiber-title{
+        text-align: left;
+    }
+
+    /* Fiber */
+    .logo-fiber-top{
+        color: #90dee4;
+        font-size: 17px;
+		display: inline;
+    }
+
+    /* Internet  */
+    .logo-internet-bottom{
+        color: #c1e6ff;
+        font-size: 18px;
+		display: inline;
+    }
+    /* Navigation CSS mobile END*/
+    nav{
+        width: 35%;
+        padding-left: 1%;
+        top: 35px;
+    }
+
+    nav > ul{
+        margin: 1% 0 1%;
+        padding: 0;
+        display: inline;
+    }
+
+    .nav-links{
+        display: inline;
+        margin: 0 .5% 0;
+    }
+	
+	.nav-links > a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		font-size: 15px;
+	}
+	
+	.call-to-action{
+		width: 35%;
+		float: right;
+        top: 2px;
+		color: #ffffff;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 16px;
+		letter-spacing: 1px;
+        vertical-align: baseline;
+	}
+    
+    .header-call-col-1{
+        display: none;
+    }
+    
+    .header-call-col-2{
+        width: 44%;
+    }
+    
+    .header-call-col-3{
+        width: 10%;
+    }
+	
+	.header-number{
+		display: block;
+		font-size: 20px;
+	}
+    
+	.call-now-top{
+    	display: none;
+    }
+	
+	.call-banner{
+		text-align: right;
+	}
+	
+
+    .call-action{
+        font-size: 30px !important; 
+        font-weight: 800;
+    }
+    
+    .hero-header-title{
+        font-size:45px;
+    }
+    
+    .hero-text-container-left{
+        top: 5%;
+    }
+    
+    .hero-header-sub-header{
+        font-size: 25px;
+    }
+
+	/* footer */
+
+	.footer-header{
+		text-transform: uppercase;
+		font-size: 20px;
+	    text-align: center;
+	    padding: 0;
+	    margin: 0 0 20px 0;
+	}
+
+	/* the main menu and links */
+	.footer-menu-box{
+	    width: 35%;
+	    margin: 10% 0 0 2%;
+	}
+
+	/* the unordered list of links */
+	   .footer-menu {
+            list-style-type: none;
+            padding-bottom: 5px;
+            columns: 2;
+            -webkit-columns: 2;
+	   }
+		/* styling on the list items */
+		.footer-menu > li{
+			font-size: 18px;
+	        text-transform: uppercase;
+		}
+
+		/* styling of the anchors in the footer menu*/
+	    .footer-menu > li > a{
+	        color: white;
+	    }
+    
+        /* the footer form container */
+        .footer-right{
+            width: 40%;
+            max-height: 20vh;
+            float: right;
+            text-align: center;
+            margin: 12% 11% 0 0;
+            padding-left: 30px;
+        }
+    
+    .footer-bottom-bar{
+        text-align: left;
+    }
+}
+
+/* desktop query */
+@media screen and (max-width: 960px) {
+    .nav-set{
+        display: none;
+    }
+
+    /* Navigation CSS mobile */
+	.hamburger, .phone-icon, .mobile-container{
+        display: block;
+    }
+    
+    .desktop{
+      display: none;
+    }
+    
+    /* Navigation CSS mobile END*/
+	
+     .hero{
+        position: relative;
+        width: 100%;
+        top:0;
+        margin: 0;
+        color: #fff;
+        z-index: 5;
+        padding: 0;
+    }
+    
+    .hero-background{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    
+    .hero-header-title{
+        margin-top: 0;
+        font-size: 40px;
+    }
+    
+    .hero-header-sub-header{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    
+    .hero-margin{
+	   margin: 0;		 
+    }
+    
+    .hero-header-vertical-middle{
+        position: relative;
+        top: 10%;
+        transform: translateY(0);
+        padding: 0;
+    }
+     
+    .hero-text-container-right{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        width: 60%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hero-text-container-left{
+        position: absolute;
+        left: 6%;
+        top: 25%;
+        width: 60%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hero-text-container-right .hero-header{
+        font-size:30px;
+    }
+
+    .hero-text-container-left .hero-sub-header{
+        font-size: 18px;
+    }
+
+    .hero-header{
+        font-size: 25px;
+    }
+
+    .hero-sub-header{
+       font-size: 20px;
+    }
+
+	.call-number{
+		font-size: 35px;
+	}
+    
+    .call-now-top{
+    	display: none;
+    }
+    
+    .call-number{
+        display: inline;
+        font-size: 80px;
+    }
+	
+	.call-action-container{
+		text-align: center;
+	}
+
+    .call-action{
+        font-size: 30px !important; 
+        font-weight: 800;
+    }
+    
+    .left{
+        width: 100%;
+        display: block;
+    }
+    
+    .right{
+        width: 100%;
+    }
+    
+    .left-text-margins{
+        width: 100%;
+    }
+    
+    .left-text-margins p{
+        text-align: left;
+    }
+    
+    .right-text-margins{
+        width: 100%;
+    }
+
+    /* phone icon near call to action at middle of each page */
+    .small-circle{
+        /* Place holder for circle icon on home page */
+        width: 80px !important;
+        height: 80px;
+        display: inline;
+    }
+    
+    .left-padding-10{
+        padding-left: 7%;
+    }
+	
+	.article-header{
+		font-size: 30px;
+	}
+    
+	footer{
+		color: white;
+	}
+
+	/* top footer bar with polygon background */ 
+	.footer-first-bar{
+        display: none;
+		width: 100%;
+		background-image: url("../images/footer-bg.png");
+	}
+
+	/* the headers of the footer sections - i.e. main menu, etc. */
+	.footer-header{
+		text-transform: uppercase;
+		font-size: 20px;
+	    text-align: center;
+	    padding: 0;
+	    margin: 0 0 20px 0;
+	}
+
+	/* the main menu and links */
+	.footer-menu-box{
+	    width: 25%;
+	    margin: 15% 0 0 2%;
+	}
+
+	/* the unordered list of links */
+	.footer-menu {
+	    list-style-type: none;
+	    padding-bottom: 5px;
+	    columns: 2;
+	    -webkit-columns: 2;
+	}
+		/* styling on the list items */
+		.footer-menu > li{
+			font-size: 18px;
+	        text-transform: uppercase;
+		}
+
+		/* styling of the anchors in the footer menu*/
+	    .footer-menu > li > a{
+	        color: white;
+	    }
+
+	/* the footer form container */
+	.footer-right{
+	    width: 40%;
+	    float: right;
+	    text-align: center;
+	    margin: 15% 11% 0 0;
+	    padding-left: 30px;
+	}
+
+	/* the left most text boxes of the form*/
+	.form-left{
+	    width: 40%;
+	    float: left;
+	}
+
+	/* the right most text boxes of the form*/
+	.form-middle{
+	    float:left;
+	    width: 54%;
+	}
+
+	/* the column of the form that holds the submit button*/
+	.form-right{
+	    width: 5%;
+	    float: right;
+	    margin-top: 15px;
+	}
+
+	/* styling the input boxes*/
+	.input-boxes{
+		-webkit-box-shadow: 
+	      inset 0 0 8px  rgba(256,256,256,0.1),
+	            0 0 16px rgba(256,256,256,0.1); 
+	    -moz-box-shadow: 
+	      inset 0 0 8px  rgba(256,256,256,0.1),
+	            0 0 16px rgba(256,256,256,0.1); 
+	    box-shadow: 
+	      inset 0 0 8px  rgba(256,256,256,0.1),
+	            0 0 16px rgba(256,256,256,0.1); 
+	    border: 1px solid #A0C0D7; 
+	    height: 25px;
+	    width: 120px;
+		text-align: center;
+		font-size: 13px;
+	    background-color: #A0C0D7;
+		text-transform: uppercase;
+	    border-color: #A0C0D7;
+	    color: #646464;
+	    border-radius: 5px;
+	    margin-bottom: 20px;
+	}
+
+	/* footer form submit button */
+	.form-button{
+		text-transform: uppercase;
+	    color: white;
+	    border-radius: 4px;
+	    background: #1CB841;
+	    background: #85C540;
+	      background-image: -webkit-linear-gradient(top, #85C540, #41B549);
+	      background-image: -moz-linear-gradient(top, #85C540, #41B549);
+	      background-image: -ms-linear-gradient(top, #85C540, #41B549);
+	      background-image: -o-linear-gradient(top, #85C540, #41B549);
+	      background-image: linear-gradient(to bottom, #85C540, #41B549);
+	    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	    font-size: 15px;
+	    border: none;
+	    padding: 10px;
+	}
+
+	.form-button:hover{
+		/* submit button */
+		cursor: pointer;
+	}
+
+	/* bar with the terms and conditions links*/
+	.footer-bottom-bar{	
+		background-color: #06224A;
+		padding: 10px;
+		text-align: left;
+	}
+
+	/* 2015 copyright fiberinternet.com */
+	.footer-copyright{
+		color: white;
+		text-transform: uppercase;
+		padding-left: 5%;
+	}
+
+	/* modal pop up for terms and conditions  */
+
+	/* wrap around the privacy and terms link */
+	.wrap {
+	 	display: inline;
+	  	padding-left: 10px;
+	  	width: 100%;
+	  	text-align: center;
+	}
+
+	/* styling for the privacy and terms and conditions link */
+	.privacy-terms{
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+	}
+	/* not sure if this is needed
+	h1 {
+	  font-size: 30px;
+	  padding: 60px 0 0;
+	  margin: 0 0 40px;
+	}
+
+	p {
+	  margin-bottom: 20px;
+	} */
+
+	/* button in the modal - the nice! button */
+	.btn {
+		background: #428bca;
+		border: #357ebd solid 1px;
+		border-radius: 3px;
+		color: #fff;
+		display: inline-block;
+		font-size: 14px;
+		padding: 8px 15px;
+		text-decoration: none;
+		text-align: center;
+		min-width: 60px;
+		transition: color .1s ease;
+	}
+
+	/* X button inside of the modal popup*/
+	.btn-close {
+		color: #aaa;
+		font-size: 30px;
+		text-decoration: none;
+		position: absolute;
+		right: 5px;
+		top: 0;
+	}
+
+	.btn-close:hover {
+	 	color: #909090;
+	}
+
+	.modal:target + .modal-dialog {
+	  -webkit-transform: translate(0, 0);
+	  -ms-transform: translate(0, 0);
+	  transform: translate(0, 0);
+	  top: 20%;
+	}
+
+	.modal-dialog {
+	  background: #fefefe;
+	  border: #333 solid 1px;
+	  border-radius: 5px;
+	  margin-left: -200px;
+	  position: fixed;
+	  left: 50%;
+	  top: -100%;
+	  z-index: 11;
+	  width: 360px;
+	  -webkit-transform: translate(0, -500%);
+	  -ms-transform: translate(0, -500%);
+	  transform: translate(0, -500%);
+	  -webkit-transition: -webkit-transform 0.3s ease-out;
+	  -moz-transition: -moz-transform 0.3s ease-out;
+	  -o-transition: -o-transform 0.3s ease-out;
+	  transition: transform 0.3s ease-out;
+	}
+
+	/* these styles control the actual popup modal*/
+	.modal-body {
+	  padding: 20px;
+	}
+
+	.modal-header, 
+	.modal-footer {
+	  padding: 10px 20px;
+	}
+
+	.modal-header {
+	  border-bottom: #eee solid 1px;
+	}
+
+	.modal-header h2 {
+	  font-size: 10px;
+	}
+
+	.modal-footer {
+	  border-top: #eee solid 1px;
+	  text-align: right;
+	}
+
+}
+
+/* tablet query */
+@media screen and (max-width: 767px) {
+    
+    .call-to-action{
+        display: none;
+    }
+    
+    .nav-set{
+        display: none;
+    }
+    
+    /* Navigation CSS mobile */
+	.hamburger, .phone-icon, .mobile-container{
+      display: block;
+    }
+    
+    .desktop{
+        display: none;
+    }
+    
+    /* Navigation CSS mobile END*/
+    
+    /* main.css styling */
+     .hero{
+        position: relative; 
+        width: 100%;
+        height: 60vh;
+        margin: 0;
+        color: #fff;
+        z-index: 5;
+    }
+    
+    .hero-background{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    
+    .hero-header-title{
+        font-size: 25px;
+        margin: 0;
+    }
+    
+    .hero-header-sub-header{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    
+    .hero-margin{
+	   margin: 0;		 
+    }
+    
+    /* the css that forces the banners to center text */
+    .hero-header-vertical-middle{
+        position: none;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 0 0 0;
+    }
+    
+    .hero-text-container-right{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        width: 60%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hero-text-container-left{
+        position: absolute;
+        left: 2%;
+        top: 25%;
+        width: 60%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hero-text-container-right .hero-header{
+        font-size: 18px;
+    }
+
+    .hero-text-container-left .hero-sub-header{
+        font-size: 16px;
+    }
+
+    .hero-header{
+        font-size: 25px;
+    }
+
+    .hero-sub-header{
+       font-size: 20px;
+    }
+
+    .call-now-top{
+    	display: none;
+    }
+    
+    .article-header{
+        padding-top: 2%;
+        font-size: 30px;
+    }
+	
+	.call-banner{
+		width: 50%;
+	}
+	
+	.call-number{
+		font-size: 40px;
+		text-align: center;
+	}
+	
+	.call-banner-container{
+		text-align: center;
+	}
+	
+    .call-action{
+        font-size: 20px !important; 
+        font-weight: 800 !important;
+		margin: 0 auto;
+    }
+
+    /* phone icon near call to action at middle of each page */
+    .small-circle{
+        /* Place holder for circle icon on home page */
+        width: 50px !important;
+        height: 50px;
+        display: inline;
+    }
+    
+    .four-col{
+		display: block;
+		float: none;
+		width: 100%;
+	}
+    
+    .icon-circle{
+        /* Place holder for large circles on availability page */
+        background: url("../images/circle.png") no-repeat center center;
+        background-size: auto 100%;
+        margin: 5% auto;
+    }
+
+    
+	footer{
+		color: white;
+	}
+    
+	/* footer bar with the polygon background */
+	.footer-first-bar{
+		display: none;
+	}
+    
+	/* bar with the terms and conditions links*/
+	.footer-bottom-bar{	 
+		background-color: #06224A;
+		padding: 10px;
+		text-align: center;
+	}
+
+	/* 2015 copyright fiberinter.com */
+	.footer-copyright{
+		color: white;
+		text-transform: uppercase;
+		padding-left: 5%;
+	}
+
+	/* modal pop up for terms and conditions  */
+
+	/* wrap around the terms and privacy links*/
+	.wrap {
+	 	display: inline;
+	  	padding: 10px;
+	  	width: 100%;
+	  	text-align: center;
+	}
+
+	/*  styling for the privacy and terms link */
+	.privacy-terms{
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+	}
+}
+
+/* mobile phone query */
+@media screen and (max-width: 600px) {
+	.call-banner-container{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	/* footer styles */
+    .nav-set{
+        display: none;
+    }
+    
+    .article-header{
+        font-size: 20px;
+    }
+    
+    .mobile-navbar{
+        display: block;
+        z-index: 10;
+        background-color: #112151;
+        color: white;
+        padding: 5% 10% 5% 5%;
+    }
+    
+    /*menu button */
+    .mobile-nav-left{
+        width: 20%;
+        text-align: center;
+        font-size: 26px;
+        padding-right: 10%;
+    }
+    
+    .mobile-nav-left:hover{
+        cursor: pointer;
+    }
+    
+    .mobile-nav-center{
+        width: 60%;
+        text-align: center;
+        font-size: 26px;
+        color: #bcc8ee;
+        padding-right: 10%;
+    }
+    
+    .mobile-nav-right{
+        width: 20%;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .nav-list-mobile a {
+        background-color: #bcc8ee; /*change later*/
+        text-align: center;
+        padding: 15px 0;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .mobile-nav-links > a:hover{
+        color: #7fd0ff;
+    }
+
+     .hero{
+        position: relative;
+        width: 100%;
+        height: 45vh;
+        margin: 0;
+        color: #fff;
+        z-index: 5;
+    }
+    
+    .hero-background{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    
+    .providers-hero-background{
+        background-image: url('../images/ProvidersHeader.png');
+        background-size: cover;   
+    }
+    
+    .hero-header-sub-header{
+        text-transform: uppercase;
+  font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    
+    .hero-margin{
+	   margin: 0;		 
+    }
+    
+    /* the css that forces the banners to center text */
+    .hero-header-vertical-middle{
+        position: none;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 0 1% 0;
+    }
+
+    /* main header on each hero banner */
+    .hero-header-title{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 13%;
+    }
+
+    /* second header on each hero banner */
+    .hero h6{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+     
+    .hero-text-container-right{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hero-text-container-left{
+        position: absolute;
+        left: 15%;
+        top: 28%;
+        width: 70%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .hero-text-container-right .hero-header{
+        font-size: 20px;
+    }
+
+    .hero-text-container-left .hero-sub-header{
+        font-size: 15px;
+        padding-top: 4%;
+    }
+
+    .hero-header{
+        font-size: 25px;
+    }
+
+    .hero-sub-header{
+       font-size: 25px;
+    }
+    
+    .sub-header-line2{
+        display: inline;
+    }
+    
+    .button-style { 
+        background-color: transparent; 
+        -moz-border-radius: 28px; 
+        -webkit-border-radius: 28px; 
+        border-radius: 28px; 
+        border: 1px solid black; 
+        display: inline-block; 
+        cursor: pointer; 
+        color: black; 
+        width: 70px;
+        font-size: 15px; 
+        padding: 8px 15px; 
+        text-decoration: none;
+        text-align: center;
+        margin: 2% auto;
+    } 
+
+    /* the mobile call banner that appears */
+ 	.call-now-top{
+ 		display: initial;
+		min-height: 64px;
+	}
+    
+	.call-now-top > div{
+		padding: 0 5%;
+		color: #112151;
+		background-color: #ffffff;
+		font-weight: 800;
+		font-size: 18px;
+		border: 1px solid #182754;
+		display: inline-block;
+		width:25%;
+		height: 64px;
+		float: left;
+		text-align: center;
+	}
+    
+	.mobile-call-now{
+		position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+	}
+    
+	.mobile-call-number{
+		padding: 16.5px 5%;
+		color: #fafafa;
+		background-color: #7a7d85;
+		font-size: 24px;
+		font-family: "Arial-Black";
+		border: 1px solid #182754;
+		display: inline;
+		width:53.5%;
+		height:100%;
+		float: left;
+		text-align: center;
+	}
+    
+    .call-banner{
+        display: none;
+    }
+    
+    .call-action{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    
+    .small-circle{
+        display: none;
+    }
+    
+	.call-number{
+		font-size: 35px;
+        text-align: center;
+	}
+    
+    .content{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .content > p{
+        text-align: left;
+        padding: 5%;
+        margin: 0 auto;
+    }
+    
+	.centered{
+		margin-left: 0;
+        text-align: left;
+        width: auto;
+	}
+    
+    .centered p{
+        width: 85%;
+        padding-left: 2%;
+        margin-left: 2%;
+    }
+    
+    /* header fonts of each div section */
+    .header-font{
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 3% 0 3% 0;
+		font-weight: bold;
+        background-color: #5fbaf8;
+        padding: 10px 0 10px 0;
+        width: 100%;
+    }
+    
+    .sub-header{
+        font-size: 18px;
+    }
+    
+    .active-triangle{
+    	display: none;
+    }
+
+    .inactive-triangle{
+    	display: none;
+    }
+    .three-col{
+        width: 100%;
+    }
+    
+	.left,
+	.right{
+		width: 100%;
+		float: none;
+		display: block;
+        padding: 10px;
+	}
+
+	.four-col{
+		display: block;
+		float: none;
+		width: 100%;
+        padding:  0;
+	}
+    
+    .center-horizontally-child {
+        position: none;
+        top: 0;
+        left: 0;
+        transform: none;
+        padding: 0 0 5% 15%;
+    }
+
+    /* icons on providers and availability*/
+    .icon-circle{
+        /* Place holder for large circles on availability page */
+        background: url("../images/circle.png") no-repeat center center;
+        background-size: auto 100%;
+        margin: 5% auto;
+    }
+
+    .icon-circle .fa{
+        position: relative;
+        top: 30%;
+    }
+
+    .icon-circle .fa-laptop{
+        position: relative;
+        top: 25%;
+    }
+    
+	footer{
+		color: white;
+	}
+
+	/* bar with polygon background */
+	.footer-first-bar{
+		display: none;
+	}
+
+	/* bottom bar that contains copyright, terms, privacy  */
+	 
+    .footer-bottom-bar{	
+        background-color: #06224A;
+        padding: 10px;
+        text-align: center;
+    }
+    
+	/* 2015 copyright fiberinternet.com */
+	.footer-copyright{
+		color: white;
+		text-transform: uppercase;
+		padding-left: 0;
+		display: block;
+		margin-top: 3%;
+	}
+    
+    .privacy-terms{
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+        padding-bottom: 3%;
+	}
+    
+	/* modal pop up for terms and conditions  */
+
+	/* wrap of the terms and privacy link */
+	.wrap {
+	 	display: block;
+	  	padding: 10px;
+	  	width: 100%;
+	  	text-align: center;
+	}
+
+	/* terms and privacy styles */
+	.privacy-terms{
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+	}
+}
